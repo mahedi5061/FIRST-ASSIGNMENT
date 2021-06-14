@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <title>login form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class='title-text'>
+        <div class='title login font-weight-bold'>Login Form</div>
+        <div class='title font-weight-bold signup text-center'>Signup Form</div>
+      </div>
+       <div class='form-container'>
+           <div class='slide-controls  justify-content-between'>
+            <input type="radio" name="slider" id="login" checked/>
+            <input type="radio" name="slider" id="signup"/>
+                <label for="login" class="slide login font-weight-bold">login</label>
+                <label for="signup" class="slide signup font-weight-bold">signup</label>
+                <div class="slider-tab"></div>
+           </div>
+           <div class='form-inner'>
+               <form action='#' class='login'>
+                   <div class='field'>
+                      
+                        <input type='text' placeholder='Email Address' required/>
+                   </div>
+                   <div class='field'>
+                   
+                    <input type='password' placeholder='Enter Password' required/>
+                   </div>
+                   <div class='pass-link'><a href='#'>Forget Password?</a></div>
+                   <div class='field'>
+                    <input type='submit' value="login"/>
+                    </div>
+                    <div class='signup-link'>Not a member? <a href='#' class='signup-now'>signup now</a></div>
+               </form>
+
+               <form action='#' class='signup'>
+                 
+                <div class='field'>
+                   
+                     <input type='text' placeholder='Email Address' required/>
+                </div>
+                 
+                <div class='field'>
+                   
+                 <input type='password' placeholder='Enter Password' required/>
+                </div>
+                <div class='field'>
+                    
+                    <input type='password' placeholder='Confirm password' required/>
+                   </div>
+                <div class='pass-link'><a href='#'>Forget Password?</a></div>
+                <div class='field'>
+                 <input type='submit' value="signup"/>
+                 </div>
+                  
+            </form>
+           </div>
+
+       </div>
+    </div>
+    <script src='./app.js' type='text/javascript'></script>
+  </body>
+</html>
